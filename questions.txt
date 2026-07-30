@@ -1,0 +1,56 @@
+1. Write a shell script that reads command line arguments and prints the number of arguments.
+Given this sequence of words as command line arguments “To the OS Laboratory at Alpha
+Lab Welcome”, the script should echo back the information that there are 8 arguments.
+Additionally it should echo back some of the arguments in the following order: “Welcome To
+the OS Laboratory at Alpha Lab”
+
+2. Write a shell script that asks for the values of 2 variables: userv1 and userv2, from the user
+and takes in any type (real/integer/character/string). Try to perform the following operations
+on the variables: (a) add, (b) multiply (c) subtract (d) division (e) printing the variables in
+reverse order. Print appropriate error message/s if the operation cannot be performed,
+otherwise print the result: “the sum of ‘userv1’ and ‘userv2’ is ….”. Execute the shell script
+as many number of times the user wants. Show all possible combinations of the types of
+variables and result/s of the corresponding operation/s.
+
+3. Write a shell script a) to find out the total count of files and directories in any directory. b)
+Also list the file and directory names separately with the respective counts. c) The script
+should also print out the total size of the files created in the past week.
+
+4. Write a shell script that counts and prints the total number of files in a particular directory and
+in all of its sub-directories. Also (i) print total no. of files (not directories) in each
+subdirectory with the name of the subdirectory, (ii) print only those file names that have been
+created within the past week.
+
+5. Write a shell script that takes 4 file names (Java program files) as command line arguments
+and prints the frequency of the occurrences of the following 3 strings “public”, “class”, “int”
+in each file. The output (in tabular format) should clearly denote the frequency of the
+occurrences of each string in each file.
+
+6. Write a shell script that accepts a file name as an input. The program then asks for a string of
+characters to be provided by the user. The file will be searched to find whether it contains the
+given word. (i) If the file contains the given word, the program will display the total number
+of occurrences of the word. (ii) The program is also required to display the line number/s in
+which the word has occurred as well the frequency of the word in that line. (Note: the word
+may occur multiple times in a given line). (iii) If the file does not contain the word, an
+appropriate message will be displayed. Consider partial match also.
+
+7. Extend the shell script written in question (6) to perform the following task: User is asked to
+enter another word. (i) The first word (entered in question (6)) to be replaced by the second
+word, if a match occurs, (ii) Ignore replacing Partial matches, but show that (iii) partial
+matches do exist, and (iv) match exists, if case sensitivity is ignored
+
+8. Write a script called birthday_match.sh that takes two birthdays of the form DD/MM/YYYY
+(e.g., 15/05/2000) and returns whether there is a match if the two people were born on the
+same day of the week (e.g., Friday).
+
+9. Write a shell program that finds the factorial of an integer and also mentions the time taken
+to find out the corresponding factorial. Test the program for different integers.
+
+10. Write a shell program to duplicate the UNIX rm command with the following features:
+a. Instead of deleting the files, it will move them to a my-deleted-files directory. If the file
+already exists in the my-deleted-files directory, then the existing file (in the my-deleted-
+files) will have the version number zero (0) appended to it and the newly deleted file will
+have version number one (1) appended to it, and so on.
+b. The command will have a switch -cl that will clear the entire my-deleted-files directory
+after asking for confirmation.
+Date for submission [and viva] latest by: August 17th/19th/20th 2026 (respective group
