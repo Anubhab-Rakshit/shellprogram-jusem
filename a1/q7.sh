@@ -54,6 +54,7 @@ fi
 if [ "$exact_count" -gt 0 ]
 then
     sed "s/[[:<:]]$search_str[[:>:]]/$replace_str/g" "$filename" > temp_file.txt
+    #sed -E "s/\<$search_str\>/$replace_str/g" "$filename" > temp_file.txt
     mv temp_file.txt "$filename"
     echo "Exact matches replaced with '$replace_str'."
 fi
